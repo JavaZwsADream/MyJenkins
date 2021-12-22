@@ -11,7 +11,7 @@ public class JenkinsController {
 
     @GetMapping("/jenkins")
     public String myJenkins(@RequestParam("msg") String msg) {
-        return msg+"you are the best";
+        return msg+"you are the best one";
     }
 
 }
